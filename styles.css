@@ -1,0 +1,311 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Contain
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color:cyan;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color:yellow;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.main{
+  background-color: #ef8172;
+
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.radio{
+  padding-left:100px;
+}
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+    html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+    .radio{
+      color:black;
+      padding-left:10px;
+      padding-bottom:20px;
+      padding-top:20px;
+    }
+
+    .main{
+      height:750px;
+    }
+
+    .Form{
+      padding-top: 60px;
+      margin-left:500px;
+      text-align:center;
+      width: 300px;
+      height:350px;
+    }
+
+    #Name{
+       width:300px;
+      border-radius:10px;
+      text-align: center;
+      padding-left:30px;
+      margin-bottom:20px;
+    }
+
+    #Password{
+       width:300px;
+      border-radius:10px;
+      text-align: center;
+      padding-left:30px;
+      margin-bottom:20px;
+    }
+
+    #Email{
+       width:300px;
+      border-radius:10px;
+      text-align: center;
+      padding-left:30px;
+      margin-bottom:20px;
+    }
+
+    #Mobile{
+      width:300px;
+      border-radius:10px;
+      text-align: center;
+      padding-left:20px;
+      margin-bottom:20px;
+    }
+   /* #male{
+      text-align: center;
+      padding-left:30px;
+      margin-bottom:30px;
+    }
+    #female{
+      text-align: center;
+      padding-left:30px;
+      margin-bottom:30px;
+    }
+    #other{
+      text-align: center;
+      padding-left:30px;
+      margin-bottom:30px;
+    }*/
+    
+    .main1{
+
+      height: 700px;
+      background-color: #ef8172; 
+    }
+
+table, td {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  font color: black;
+}
+
+
+
+.btn1{
+  width:100px;
+  height:50px;
+  background-color:cyan;
+  border-radius:3px;
+  font-size:1rem;
+
+}
+.forgot{
+  padding-top: 10px;
+}
+
+.sign{
+  font-size:3.5rem;
+  font-weight:bold;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom:0px;
+}
+/*btn{
+  padding-right:70px;
+}*/
+.container{
+  background-color:#ff4c68;
+  padding:0px;
+  height: 300px;
+}
+
+#footer{
+  background-color: yellow;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+
+}
